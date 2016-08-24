@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // when press OK
-                        Toast.makeText(promptView.getContext(), "OK", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(promptView.getContext(), "OK..", Toast.LENGTH_SHORT).show();
                     }
                 })
                 .setNegativeButton("Cancel",
